@@ -1,6 +1,6 @@
 # Telegram Song Download Bot ❤
 
-## You can download any song using this bot. Can be found in telegram as [@JESongdlBot](https://t.me/JESongdlBot)
+## You can download any song using this bot. Can be found in telegram as [@SLMusicMasterRobot](http://t.me/SLMusicMasterRobot)
 
 ### Deploy to Heroku 🏃‍♂
 
