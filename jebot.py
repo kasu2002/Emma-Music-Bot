@@ -128,12 +128,12 @@ async def song(client, message):
         await message.reply("<b>Enter a song name❗\n\nExample: `/s guleba`</b>")
         return ""
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Infinity_BOTs 🇱🇰</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by  @epusthakalaya ™</b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
                                     InlineKeyboardButton(
-                                        "Developer", url="https://t.me/ImJanindu")
+                                        "Developer", url="https://t.me/kasu_bro")
                                 ]]
                         ),
                parse_mode="html",
@@ -169,7 +169,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a Song Downloader Bot
+               text="""<b>Hey There, I'm a SL MUSIC MASTER Bot
 
 Made by @ImJanindu 🇱🇰
 
@@ -179,7 +179,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "Channel", url="https://t.me/Global_Music_GM")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
