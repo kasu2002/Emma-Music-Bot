@@ -81,12 +81,12 @@ async def song(client, message):
     #if args.startswith("/help"):
         #return ""    
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Infinity_BOTs 🇱🇰</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @epusthakalaya_bots 🇱🇰</b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
                                     InlineKeyboardButton(
-                                        "Developer", url="https://t.me/ImJanindu")
+                                        "Developer", url="https://t.me/kasu_bro")
                                 ]]
                         ),
                parse_mode="html",
@@ -125,7 +125,7 @@ async def song(client, message):
     user_id = message.from_user["id"]
     args = get_arg(message) + " " + "song"
     if args.startswith(" "):
-        await message.reply("<b>Enter a song name❗\n\nExample: `/s guleba`</b>")
+        await message.reply("<b>Enter a song name❗\n\nExample: `/s bad habits`</b>")
         return ""
     status = await message.reply(
              text="<b>Downloading your song, Plz wait 🥺\n\nMade by  @epusthakalaya ™</b>",
@@ -169,7 +169,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a SL MUSIC MASTER Bot
+               text="""<b>Hey There, I'm a ✨ 𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ✨ 
 
 Made by @ImJanindu 🇱🇰
 
@@ -179,7 +179,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Global_Music_GM")
+                                            "Channel", url="https://t.me/epusthakalaya_bots")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -216,7 +216,7 @@ async def help(client, message):
     else:
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="<b>Song Downloader Help\n\nEnter a song name❗\n\nExample: `/s guleba`</b>",
+               text="<b>Song Downloader Help\n\nEnter a song name❗\n\nExample: `/s bad habits`</b>",
             reply_to_message_id=message.message_id
         )     
         
@@ -232,7 +232,7 @@ print(
     """
 Bot Started!
 
-Join @Infinity_BOTs
+Join @epusthakalaya_bots
 """
 )
 
