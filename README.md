@@ -1,6 +1,6 @@
 # Telegram Song Download Bot ❤
 
-## You can download any song using this bot. Can be found in telegram as [@SLMusicMasterRobot](http://t.me/SLMusicMasterRobot)
+## You can download any song using this bot. Can be found in telegram as [@EmmaMusicBot](http://t.me/EmmaMusicBot)
 
 ### Deploy to Heroku 🏃‍♂
 
@@ -11,6 +11,8 @@
 [Infinity BOTs](https://t.me/Infinity_BOTs)
 
 [Pyrogram Library](https://github.com/pyrogram/pyrogram)
+
+[Original Repo](https://github.com/ImJanindu/MusicBot.git)
 
 ### Developers:
 
