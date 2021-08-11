@@ -171,7 +171,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a ✨ 𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ✨ 
 
-Made by @ImJanindu 🇱🇰
+Made by @kasu_bro 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -210,7 +210,7 @@ async def help(client, message):
                chat_id=message.chat.id,
                text="""<b>Send a song name to download song
 
-~ @Infinity_BOTs</b>""",
+~ @epusthakalaya_bots</b>""",
             reply_to_message_id=message.message_id
         )
     else:
